@@ -11,3 +11,9 @@ Sharing export data of CRX-mouse for assisting easy at browser-game like Graxblx
 2. Copy the exported data on `crx-mouse-export.txt`.
 3. Open CRX-mouse setting and paste to import page.
 4. Have fun.
+
+## Shortcut setting.
+* `↓→` : open assist page for grab-f.
+* `↓←` : close current tab.
+* `→`  : Open page from clip board.
+* `←`  : Browser back.
