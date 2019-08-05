@@ -204,6 +204,14 @@
         "morePosition": "chrome",
         "moreTarget": "newfront",
         "whitelist": []
+      },
+      {
+        "direct": "DL",
+        "action": "G_close",
+        "moreCloseurl": "chrome://newtab/",
+        "moreClosesel": "chrome",
+        "moreCloseopts": "close",
+        "whitelist": []
       }
     ]
   },
