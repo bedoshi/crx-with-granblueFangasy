@@ -1,0 +1,298 @@
+{
+  "cfgver": "4.4.2",
+  "drag": {
+    "ddirect": true,
+    "ddirectcolor": "5E6A88",
+    "ddirectopa": 0.9,
+    "dholdkey": "none",
+    "dragimage": true,
+    "draginput": false,
+    "draglink": true,
+    "dragtext": true,
+    "dragui": true,
+    "dstroke": true,
+    "dstrokecolor": "4E1485",
+    "dstrokeopa": 0.8,
+    "dstrokewidth": 5,
+    "dtooltip": true,
+    "dtooltipcolor": "120310",
+    "dtooltipopa": 0.9,
+    "dtooltipwidth": 18,
+    "image": [
+      {
+        "action": "I_open",
+        "direct": "L",
+        "moreDes": "Open image in new tab(New tab & Background)",
+        "morePinned": "unpinned",
+        "morePosition": "left",
+        "moreTarget": "newback"
+      },
+      {
+        "action": "I_open",
+        "direct": "R",
+        "moreDes": "Open image in new tab(New tab & Front)",
+        "morePinned": "unpinned",
+        "morePosition": "right",
+        "moreTarget": "newfront"
+      },
+      {
+        "action": "I_save",
+        "direct": "D"
+      }
+    ],
+    "imgfirst": "none",
+    "imgfirstcheck": false,
+    "link": [
+      {
+        "action": "L_open",
+        "direct": "L",
+        "moreDes": "Open link in new tab(New tab & Background)",
+        "morePinned": "unpinned",
+        "morePosition": "left",
+        "moreTarget": "newback"
+      },
+      {
+        "action": "L_open",
+        "direct": "R",
+        "moreDes": "Open link in new tab(New tab & Front)",
+        "morePinned": "unpinned",
+        "morePosition": "right",
+        "moreTarget": "newfront"
+      },
+      {
+        "action": "L_copytext",
+        "direct": "D"
+      },
+      {
+        "action": "L_copyurl",
+        "direct": "U"
+      }
+    ],
+    "setdragurl": true,
+    "text": [
+      {
+        "action": "T_search",
+        "direct": "L",
+        "moreDes": "Use %name to search \"%s\"(New tab & Background)",
+        "morePinned": "unpinned",
+        "morePosition": "left",
+        "moreTarget": "newback",
+        "moreTsearch": "sgoogle"
+      },
+      {
+        "action": "T_search",
+        "direct": "R",
+        "moreDes": "Use %name to search \"%s\"(New tab & Front)",
+        "morePinned": "unpinned",
+        "morePosition": "right",
+        "moreTarget": "newfront",
+        "moreTsearch": "sgoogle"
+      },
+      {
+        "action": "T_copytext",
+        "direct": "D"
+      }
+    ]
+  },
+  "extid": "jlgkpaicikihijadgifklkbpdajbkhjo",
+  "gesture": {
+    "gestureui": true,
+    "stroke": true,
+    "direct": true,
+    "tooltip": true,
+    "strokecolor": "4E1485",
+    "strokewidth": 5,
+    "strokeopa": 0.8,
+    "directcolor": "778899",
+    "directopa": 0.9,
+    "tooltipcolor": "120310",
+    "tooltipwidth": 18,
+    "tooltipopa": 0.9,
+    "geskey": "right",
+    "stenable": false,
+    "gholdkey": "none",
+    "gholdkeydisable": "alt",
+    "gholdkeytype": "enable",
+    "gesPos": "cc",
+    "gesture": [
+      {
+        "direct": "L",
+        "action": "G_back",
+        "whitelist": []
+      },
+      {
+        "direct": "R",
+        "action": "G_openclipurl",
+        "moreDes": "クリップボードから URL を開く",
+        "moreTarget": "newfront",
+        "morePosition": "chrome",
+        "morePinned": "unpinned",
+        "whitelist": []
+      },
+      {
+        "direct": "U",
+        "action": "G_up",
+        "whitelist": []
+      },
+      {
+        "direct": "D",
+        "action": "G_down",
+        "whitelist": []
+      },
+      {
+        "direct": "DR",
+        "action": "G_userscript",
+        "moreName": "open grable page",
+        "moreDes": "スクリプトを実行する：\"%name\"",
+        "moreScript": "javascript:window.location.href = 'http://game.granbluefantasy.jp/#quest/assist';",
+        "whitelist": []
+      },
+      {
+        "direct": "LU",
+        "action": "G_reclosedtab",
+        "moreTarget": "newfront",
+        "morePosition": "chrome",
+        "morePinned": "unpinned",
+        "moreDes": "閉じたタブを再び開く",
+        "whitelist": []
+      },
+      {
+        "direct": "RD",
+        "action": "G_bottom",
+        "whitelist": []
+      },
+      {
+        "direct": "RU",
+        "action": "G_top",
+        "whitelist": []
+      },
+      {
+        "direct": "UD",
+        "action": "G_reload",
+        "whitelist": []
+      },
+      {
+        "direct": "UDU",
+        "action": "G_reloadclear",
+        "whitelist": []
+      },
+      {
+        "direct": "UL",
+        "action": "G_lefttab",
+        "whitelist": []
+      },
+      {
+        "direct": "UR",
+        "action": "G_righttab",
+        "whitelist": []
+      },
+      {
+        "direct": "DRU",
+        "action": "G_newwindow",
+        "whitelist": []
+      },
+      {
+        "direct": "URD",
+        "action": "G_closewindow",
+        "whitelist": []
+      },
+      {
+        "direct": "RDLU",
+        "action": "G_crxsettings",
+        "moreDes": "CrxMouse の設定",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront",
+        "whitelist": []
+      }
+    ]
+  },
+  "isGesturesOff": false,
+  "isOnboardingShownOnce": false,
+  "lastEditedGesture": "LU",
+  "normal": {
+    "autocancel": false,
+    "autocancelvalue": 2,
+    "cancelcontextmenu": true,
+    "capturetype": "jpeg",
+    "clickedOptin": true,
+    "cursorimg": null,
+    "cursorimgscale": 1,
+    "dbclicktime": 600,
+    "drag": true,
+    "gesture": true,
+    "hidetrash": false,
+    "jpegquality": 100,
+    "lasttab": false,
+    "minilength": 10,
+    "newtabposition": "chrome",
+    "scroll": false,
+    "scrolleffects": true,
+    "scrollgesture": false,
+    "strokegesture": false
+  },
+  "others": {
+    "tuilink": false
+  },
+  "scroll": {
+    "scrollaccele": 1,
+    "scrollspeed": 3,
+    "smooth": true
+  },
+  "scrollgesture": {
+    "fastSwitch": false,
+    "reverseFS": false,
+    "sgsleft": [
+      {
+        "action": "G_top"
+      },
+      {
+        "action": "G_bottom"
+      }
+    ],
+    "sgsleftenable": true,
+    "sgsright": [
+      {
+        "action": "G_top"
+      },
+      {
+        "action": "G_bottom"
+      }
+    ],
+    "sgsrightenable": false,
+    "tablist": true,
+    "tablistVisual": true,
+    "tablistkey": "right"
+  },
+  "strokegesture": {
+    "strleft": [
+      {
+        "action": "G_none"
+      },
+      {
+        "action": "G_righttab"
+      }
+    ],
+    "strleftenable": true,
+    "strmiddle": [
+      {
+        "action": "G_lefttab"
+      },
+      {
+        "action": "G_righttab"
+      }
+    ],
+    "strmiddleenable": false,
+    "strpress": "up",
+    "strright": [
+      {
+        "action": "G_lefttab"
+      },
+      {
+        "action": "G_none"
+      }
+    ],
+    "strrightenable": true
+  },
+  "sync": true
+}
