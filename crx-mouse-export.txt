@@ -96,109 +96,88 @@
   },
   "extid": "jlgkpaicikihijadgifklkbpdajbkhjo",
   "gesture": {
-    "gestureui": true,
-    "stroke": true,
     "direct": true,
-    "tooltip": true,
-    "strokecolor": "4E1485",
-    "strokewidth": 5,
-    "strokeopa": 0.8,
     "directcolor": "778899",
     "directopa": 0.9,
-    "tooltipcolor": "120310",
-    "tooltipwidth": 18,
-    "tooltipopa": 0.9,
-    "geskey": "right",
-    "stenable": false,
-    "gholdkey": "none",
-    "gholdkeydisable": "alt",
-    "gholdkeytype": "enable",
     "gesPos": "cc",
+    "geskey": "right",
     "gesture": [
       {
-        "direct": "L",
         "action": "G_back",
+        "direct": "L",
         "whitelist": []
       },
       {
-        "direct": "R",
         "action": "G_openclipurl",
+        "direct": "R",
         "moreDes": "クリップボードから URL を開く",
-        "moreTarget": "newfront",
-        "morePosition": "chrome",
         "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront",
         "whitelist": []
       },
       {
-        "direct": "U",
         "action": "G_up",
+        "direct": "U",
         "whitelist": []
       },
       {
-        "direct": "D",
         "action": "G_down",
+        "direct": "D",
         "whitelist": []
       },
       {
-        "direct": "DR",
-        "action": "G_userscript",
-        "moreName": "open grable page",
-        "moreDes": "スクリプトを実行する：\"%name\"",
-        "moreScript": "javascript:window.location.href = 'http://game.granbluefantasy.jp/#quest/assist';",
-        "whitelist": []
-      },
-      {
-        "direct": "LU",
         "action": "G_reclosedtab",
-        "moreTarget": "newfront",
-        "morePosition": "chrome",
-        "morePinned": "unpinned",
+        "direct": "LU",
         "moreDes": "閉じたタブを再び開く",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront",
         "whitelist": []
       },
       {
-        "direct": "RD",
         "action": "G_bottom",
+        "direct": "RD",
         "whitelist": []
       },
       {
-        "direct": "RU",
         "action": "G_top",
+        "direct": "RU",
         "whitelist": []
       },
       {
-        "direct": "UD",
         "action": "G_reload",
+        "direct": "UD",
         "whitelist": []
       },
       {
-        "direct": "UDU",
         "action": "G_reloadclear",
+        "direct": "UDU",
         "whitelist": []
       },
       {
-        "direct": "UL",
         "action": "G_lefttab",
+        "direct": "UL",
         "whitelist": []
       },
       {
-        "direct": "UR",
         "action": "G_righttab",
+        "direct": "UR",
         "whitelist": []
       },
       {
-        "direct": "DRU",
         "action": "G_newwindow",
+        "direct": "DRU",
         "whitelist": []
       },
       {
-        "direct": "URD",
         "action": "G_closewindow",
+        "direct": "URD",
         "whitelist": []
       },
       {
-        "direct": "RDLU",
         "action": "G_crxsettings",
+        "direct": "RDLU",
         "moreDes": "CrxMouse の設定",
         "morePinned": "unpinned",
         "morePosition": "chrome",
@@ -207,13 +186,34 @@
       },
       {
         "direct": "DL",
+        "action": "G_userscript",
+        "moreName": "救援窓を開く",
+        "moreDes": "スクリプトを実行する：\"%name\"",
+        "moreScript": "javascript:window.location.href = 'http://game.granbluefantasy.jp/#quest/assist';",
+        "whitelist": []
+      },
+      {
+        "direct": "DR",
         "action": "G_close",
         "moreCloseurl": "chrome://newtab/",
         "moreClosesel": "chrome",
         "moreCloseopts": "close",
         "whitelist": []
       }
-    ]
+    ],
+    "gestureui": true,
+    "gholdkey": "none",
+    "gholdkeydisable": "alt",
+    "gholdkeytype": "enable",
+    "stenable": false,
+    "stroke": true,
+    "strokecolor": "4E1485",
+    "strokeopa": 0.8,
+    "strokewidth": 5,
+    "tooltip": true,
+    "tooltipcolor": "120310",
+    "tooltipopa": 0.9,
+    "tooltipwidth": 18
   },
   "isGesturesOff": false,
   "isOnboardingShownOnce": false,

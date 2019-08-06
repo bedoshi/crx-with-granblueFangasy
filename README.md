@@ -13,7 +13,7 @@ Sharing export data of CRX-mouse for assisting easy at browser-game like Graxblx
 4. Have fun.
 
 ## Shortcut setting.
-* `↓→` : open assist page for grab-f.
-* `↓←` : close current tab.
+* `↓←` : open assist page for grab-f.
+* `↓→` : close current tab.
 * `→`  : Open page from clip board.
 * `←`  : Browser back.
