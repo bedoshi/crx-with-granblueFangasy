@@ -1,6 +1,6 @@
 # crx-with-grab-f
 
-Sharing export data of CRX-mouse for assisting easy at browser-game like Graxblxx Fanxxsx.
+Sharing export data of CRX-mouse for assisting easy at browser-game like Granblue Fantasy.
 
 ## What you can do with this
 1. Opening assist-page easy.
