@@ -1,4 +1,4 @@
-# crx-with-grab-f
+# crx-with-granblueFangasy
 
 Sharing export data of CRX-mouse for assisting easy at browser-game like Granblue Fantasy.
 
