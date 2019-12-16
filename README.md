@@ -1,5 +1,7 @@
 # crx-with-granblueFangasy
 
+FOR WINDOWS.
+
 Sharing export data of CRX-mouse for assisting easy at browser-game like Granblue Fantasy.
 
 ## What you can do with this
